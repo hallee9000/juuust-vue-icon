@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <Banner/>
     <ul class="wrapper">
       <li
         class="item"
@@ -20,9 +21,13 @@
 
 <script>
   import 'normalize.css'
+  import Banner from './components/Banner'
 
   export default {
     name: "App",
+    components: {
+      Banner
+    },
     data () {
       return {
         iconNames: this.ICON_NAMES
@@ -40,12 +45,17 @@
           document.execCommand('copy')
         }
         document.body.removeChild(input)
+        this.$message.success('复制成功')
       }
     }
   };
 </script>
 
 <style lang="css">
+  *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
   body{
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
@@ -55,12 +65,14 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 15px;
   }
   .wrapper {
     list-style: none;
     display: flex;
+    flex-flow: wrap;
     margin: 0;
-    padding: 30px;
+    padding: 15px 0;
   }
   .item {
     display: flex;
