@@ -37,3 +37,12 @@ jobs:
     - run: yarn publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        https://open.feishu.cn/open-apis/bot/hook/6a5a45dbe6eb49b887707736f23f7125
+    - name: feishu status
+      uses: foxundermoon/feishu-action@v1
+      with:
+        url: ${{ secrets.FEISHU_BOT_WEBHOOK_URL }}
+        title: Notticon Updates!
+        text: |
+          兄弟们，咱们的图标更新啦！
+          请使用 yarn upgrade notticon --latest 更新。
