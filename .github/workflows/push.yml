@@ -37,8 +37,7 @@ jobs:
     - run: yarn publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-        https://open.feishu.cn/open-apis/bot/hook/6a5a45dbe6eb49b887707736f23f7125
-    - name: feishu status
+    - name: feishu notification
       uses: foxundermoon/feishu-action@v1
       with:
         url: ${{ secrets.FEISHU_BOT_WEBHOOK_URL }}
