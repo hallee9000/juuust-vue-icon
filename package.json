@@ -1,6 +1,6 @@
 {
   "name": "notticon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Notta Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
   "files": [
