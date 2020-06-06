@@ -45,3 +45,4 @@ jobs:
         text: |
           兄弟们，咱们的图标更新啦！
           请使用 yarn upgrade notticon --latest 更新。
+          在线查看图标：https://leadream.github.io/notticon/
