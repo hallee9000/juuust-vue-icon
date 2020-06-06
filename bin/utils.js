@@ -1,11 +1,12 @@
 const upperCamelCase = require('uppercamelcase')
 
 const parseName = (name, defaultStyle) => {
-  const nameSlices = name.split('-')
+  const cleanedName = name.replace(/\//g, '-')
+  const nameSlices = cleanedName.split('-')
   const style = nameSlices[nameSlices.length - 1]
   return {
     name,
-    componentName: upperCamelCase(name),
+    componentName: upperCamelCase(cleanedName),
     style: style==='fill' || style==='stroke' ? style : defaultStyle
   }
 }

@@ -8,7 +8,6 @@
     "es"
   ],
   "repository": "https://github.com/leadream/notticon.git",
-  "private": true,
   "scripts": {
     "generate": "sudo rm -rf src/icons && node bin/build.js",
     "serve": "vue-cli-service serve",
