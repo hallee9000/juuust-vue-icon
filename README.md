@@ -1,4 +1,4 @@
-# notticon
+# juuust-vue-icon
 
 ## Project setup
 ```

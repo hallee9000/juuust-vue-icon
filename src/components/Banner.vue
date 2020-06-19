@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1 class="banner">Notticon</h1>
+    <h1 class="banner">Juuust Vue Icon</h1>
     <div class="code">
       <div>
         <h3>Installation</h3>
-        <pre><code>npm install notticon --save<br/>yarn add notticon</code></pre>
+        <pre><code>npm install juuust-vue-icon --save<br/>yarn add juuust-vue-icon</code></pre>
       </div>
       <div>
         <h3>Usage</h3>
-        <pre><code>import { Home } from 'notticon'<br/>&lt;Home :size="36" color="#009C22" &gt;</code></pre>
+        <pre><code>import { Home } from 'juuust-vue-icon'<br/>&lt;Home :size="36" color="#009C22" &gt;</code></pre>
       </div>
     </div>
   </div>
