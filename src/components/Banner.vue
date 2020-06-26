@@ -8,7 +8,7 @@
       </div>
       <div>
         <h3>Usage</h3>
-        <pre><code>import { Home } from 'juuust-vue-icon'<br/>&lt;Home :size="36" color="#009C22" &gt;</code></pre>
+        <pre><code>import { IconHome } from 'juuust-vue-icon'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
       </div>
     </div>
   </div>
