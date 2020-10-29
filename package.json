@@ -1,13 +1,18 @@
 {
-  "name": "juuust-vue-icon",
-  "version": "0.1.1",
-  "description": "Juuust Vue Icon, Automation workflow with Figma",
+  "name": "3fiftynine-icons",
+  "version": "0.0.7",
+  "description": "3Fiftynine Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
   "files": [
     "dist",
     "es"
   ],
-  "repository": "https://github.com/leadream/juuust-vue-icon.git",
+  "author": "3fiftynine <info@3fiftynine.nl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3fiftynine/3fiftynine-icons/issues"
+  },
+  "homepage": "https://3fiftynine.nl/en/home",
   "scripts": {
     "generate": "sudo rm -rf src/icons && node bin/build.js",
     "serve": "vue-cli-service serve",
