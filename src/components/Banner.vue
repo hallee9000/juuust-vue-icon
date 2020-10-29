@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1 class="banner">Juuust Vue Icon</h1>
+    <h1 class="banner">3Fiftynine Vue Icon</h1>
     <div class="code">
       <div>
         <h3>Installation</h3>
-        <pre><code>npm install juuust-vue-icon --save<br/>yarn add juuust-vue-icon</code></pre>
+        <pre><code>npm install @3fiftynine/3fiftynine-icons --save<br/>yarn add @3fiftynine/3fiftynine-icons</code></pre>
       </div>
       <div>
         <h3>Usage</h3>
-        <pre><code>import { IconHome } from 'juuust-vue-icon'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
+        <pre><code>import { IconHome } from '@3fiftynine/3fiftynine-icons'<br/>&lt;IconHome :size="36" color="#009C22" &gt;</code></pre>
       </div>
     </div>
   </div>
