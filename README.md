@@ -1,4 +1,4 @@
-# juuust-vue-icon
+# 3fiftynine-icons
 
 ## Project setup
 ```
