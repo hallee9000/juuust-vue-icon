@@ -1,6 +1,6 @@
 {
   "name": "3fiftynine-icons",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "3Fiftynine Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
   "files": [
