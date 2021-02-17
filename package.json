@@ -15,6 +15,7 @@
   "homepage": "https://3fiftynine.nl/en/home",
   "scripts": {
     "generate": "sudo rm -rf src/icons && node bin/build.js",
+    "gen": "rmdir /s /q src/icons && node bin/build.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --dest bundle --target lib --name index ./src/index.js",
