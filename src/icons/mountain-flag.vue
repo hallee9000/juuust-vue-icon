@@ -3,7 +3,10 @@
     <svg
       xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 22 24" aria-hidden="true" v-on="$listeners" fill="none"
     >
-<path d="M9.1645 4.64839L9.17719 7.93602M6.69302 12.5614L7.93541 13.614L9.1778 12.5614L10.4202 13.614L11.6626 12.5614M8.94941 23H21L14.9747 12.2105L13.194 15.3684M9.1778 1H15.6667L13.375 2.94444L15.6667 4.92982H9.17719L9.1778 1ZM9.17719 8L17.3544 23H1L9.17719 8Z" :stroke="color" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>    </svg>
+     <path d="M10 4.60234L10 8M10 1H17L14.5938 2.94444L17 4.92982H10V1Z" class="mountain-flag" :stroke="color" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6.97767 12.5614L8.28218 13.614L9.58669 12.5614L10.8912 13.614L12.1957 12.5614M9.34688 23H22L15.6734 12.2105L13.8038 15.3684M9.58604 8L18.1721 23H1L9.58604 8Z" class="mountain" :stroke="color" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+     </svg>
   </template>
   <script>
     export default {
