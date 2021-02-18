@@ -12,7 +12,7 @@
       props: {
         size: {
           type: Number,
-          default: 16
+          default: 20
         },
         color: {
           type: String,

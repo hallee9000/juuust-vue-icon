@@ -37,13 +37,3 @@ jobs:
     - run: yarn publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-    - name: WeChat Work notification
-      uses: chf007/action-wechat-work@master
-      env:
-        WECHAT_WORK_BOT_WEBHOOK: ${{secrets.WECHAT_WORK_BOT_WEBHOOK}}
-      with:
-        msgtype: text
-        content: |
-          兄弟们，咱们的图标更新啦！
-          请使用 yarn upgrade juuust-vue-icon --latest 更新。
-          在线查看图标：https://leadream.github.io/juuust-vue-icon/
