@@ -1,6 +1,6 @@
 {
   "name": "polyvoly-icon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "polyvoly公共图标库",
   "main": "bundle/index.common.js",
   "files": [
