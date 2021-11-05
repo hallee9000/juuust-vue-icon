@@ -58,8 +58,5 @@
   "config": {
     "framework": "vue",
     "style": "fill"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
