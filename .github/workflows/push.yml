@@ -45,5 +45,5 @@ jobs:
         msgtype: text
         content: |
           兄弟们，咱们的图标更新啦 ~
-          请使用 yarn upgrade juuust-vue-icon --latest 更新。
-          在线查看图标：https://leadream.github.io/juuust-vue-icon/
+          请使用 yarn upgrade onein-vue-icon --latest 更新。
+          在线查看图标：https://grunge520.github.io/onein-vue-icon/
