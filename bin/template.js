@@ -30,7 +30,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   </template>
   <script>
     export default {
-      name: "Icon${ComponentName}",
+      name: "${ComponentName}",
       props: {
         size: {
           type: Number,
