@@ -1,6 +1,6 @@
 {
   "name": "bw-vue-icon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Bw Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
   "files": [
