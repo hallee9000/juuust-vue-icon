@@ -1,6 +1,6 @@
 {
-  "name": "juuust-vue-icon",
-  "version": "0.1.1",
+  "name": "sklf-vue-icon",
+  "version": "0.0.1",
   "description": "Juuust Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
   "files": [
