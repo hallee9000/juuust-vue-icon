@@ -44,6 +44,6 @@ jobs:
       with:
         msgtype: text
         content: |
-          兄弟们，咱们的图标更新啦！
-          请使用 yarn upgrade juuust-vue-icon --latest 更新。
-          在线查看图标：https://leadream.github.io/juuust-vue-icon/
+          李有田村长让我通知大家，Pad端图标库更新啦！
+          请使用 yarn upgrade meri-ipad-icon --latest 更新。
+          在线查看图标：https://sunlaohan.github.io/meri-ipad-icon/
