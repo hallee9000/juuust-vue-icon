@@ -46,4 +46,4 @@ jobs:
         content: |
           李有田村长让我通知大家，Pad端图标库更新啦！
           请使用 yarn upgrade meri-ipad-icon --latest 更新。
-          在线查看图标：https://sunshifu.github.io/meri-ipad-icon/
+          在线查看图标：https://sunlaohan.github.io/meri-ipad-icon/
