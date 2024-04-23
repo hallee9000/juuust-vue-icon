@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "description": "Juuust Vue Icon, Automation workflow with Figma",
   "main": "bundle/index.common.js",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "files": [
     "dist",
     "es"
