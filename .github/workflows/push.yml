@@ -16,6 +16,8 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '10.x'
+    - name: set npm config
+    - run: npm config set registry https://registry.npmmirror.com
     - run: yarn install --strict-ssl=false
     - name: Figma Action
       uses: primer/figma-action@v1.0.0-alpha.2
