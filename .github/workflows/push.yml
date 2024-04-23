@@ -15,8 +15,9 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
-    - run: yarn install
+        node-version: '12.x'
+    - run: yarn config set strict-ssl false
+    - run: yarn install --strict-ssl=false
     - name: Figma Action
       uses: primer/figma-action@v1.0.0-alpha.2
       with:
